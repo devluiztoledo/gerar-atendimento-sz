@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Copiar Atendimento SZ.CHAT
+// @name         Copiar Atendimento SZ.CHAT - Luiz Toledo
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Extrai Protocolo, Nome e Telefone e copia formatado para o clipboard
+// @description  Cria um botão que extrai Protocolo, Nome e Telefone e copia formatado para o clipboard
 // @author       Luiz Toledo
 // @match        https://ggnet.sz.chat/user/agent*
 // @grant        GM_setClipboard
 // @run-at       document-idle
-//updateURL  
-//downloadURL  
+//updateURL      https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js
+//downloadURL    https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js
 // ==/UserScript==
 
 
