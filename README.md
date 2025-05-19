@@ -3,23 +3,22 @@
 1. Instale a extensão [Tampermonkey](https://www.tampermonkey.net/) no seu navegador.
 2. Clique no botão abaixo para instalar diretamente:
 
-👉 **[Instalar Script](https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js)**
+👉 **[Instalar Script](https://raw.githubusercontent.com/devluiztoledo/copiar-conversa-sz/main/copiar-conversa.user.js)**
 
 
 ---
 
-# 📄 Script Tampermonkey – Gerar atendimento SZCHAT
+# 📄 Script Tampermonkey – Copiar Conversas SZCHAT
 
-Este repositório contém um **script para Tampermonkey** que facilita a **criação do atendimento manual**
+Este repositório contém um **script para Tampermonkey** que facilita a **cópia de mensagens do chat**
 
 ---
 
 ## ⚙️ O que o script faz?
 
-- Detecta Nome
-- Detecta Número
-- Detecta Protocolo
-- Copia para o clipboard em formato de atendimento para colar no integrator
+Detecta mensagem cliente 
+Detecta mensagem agente
+Copia as mensagens para o clipboard
 
 ---
 
