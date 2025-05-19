@@ -7,8 +7,8 @@
 // @match        https://ggnet.sz.chat/user/agent*
 // @grant        GM_setClipboard
 // @run-at       document-idle
-//updateURL      https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js
-//downloadURL    https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js
+// @updateURL    https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js
+// @downloadURL  https://raw.githubusercontent.com/devluiztoledo/gerar-atendimento-sz/main/gerar-atendimento-sz.user.js
 // ==/UserScript==
 
 
