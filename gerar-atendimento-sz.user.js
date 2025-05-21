@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         A4 Copiar Atendimento SZ.CHAT - Luiz Toledo
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Cria um botão que extrai Protocolo, Nome e Telefone e copia formatado para o clipboard
 // @author       Luiz Toledo
 // @match        https://ggnet.sz.chat/user/agent*
