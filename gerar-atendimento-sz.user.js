@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         A4 Copiar Atendimento SZ.CHAT - Luiz Toledo
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.5
 // @description  Cria um botão que extrai Protocolo, Nome e Telefone e copia formatado para o clipboard
 // @author       Luiz Toledo
 // @match        https://ggnet.sz.chat/user/agent*
@@ -30,7 +30,9 @@
 
         novoBotao.addEventListener('click', () => {
             try {
-                const protocoloEl = botoes.find(el => el.textContent.includes('Protocolo:'));
+
+                const botoesAtuais = Array.from(document.querySelectorAll('a.item.text-ellipsis'));
+                const protocoloEl = botoesAtuais.find(el => el.textContent.includes('Protocolo:'));
                 const nomeEl = document.querySelector('h3.ui.header.mt-0.text-ellipsis');
                 const telefoneEl = document.querySelector('small.mt-2');
 
